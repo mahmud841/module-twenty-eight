@@ -14,7 +14,7 @@ const searching = 'lenovo';
 const output = [];
  for (const product of products) {
     if (product.toLowerCase().indexOf(searching.toLowerCase()) != -1) {
-        // output.push(product);
+        output.push(product);
     }
     if (product.toLowerCase().includes(searching.toLowerCase())) {
         // output.push(product);
